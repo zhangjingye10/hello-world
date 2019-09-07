@@ -9,8 +9,8 @@ and open the template in the editor.
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <title>轻小说征文</title>
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?v=1"/>
-        <link rel="stylesheet" type="text/css" href="//z164.jjwxc.com/sp/essay_technology_2/css/base.css"/>
-        <link rel="stylesheet" type="text/css" href="//z164.jjwxc.com/sp/essay_technology_2/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <script type="text/javascript" src="http://static.jjwxc.net/scripts/jquery-1.8.0.min.js"></script>
         <script type="text/javascript" src="http://static.jjwxc.net/scripts/jquery.blockUI.pack.js"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
@@ -29,12 +29,15 @@ and open the template in the editor.
                     text-align: right;
                 }
                 @media screen and (min-width: 300px) {  /* 300--480时,会使用该设置 */  
+                    .container{background: red;}
                     .columnshow{ display:none;}
         }  
                 @media (max-width: 768px) {
+                    .container{background: blue;}
                     .columnhide{ display:none;}
                 }
                 @media (min-width: 768px) {
+                    .container{background: pink;}
                     .columnshow{ display:none;}
                 }
             </style>
