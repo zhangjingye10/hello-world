@@ -28,6 +28,9 @@ and open the template in the editor.
                 .table>tbody>tr>td:nth-child(2){
                     text-align: right;
                 }
+                @media screen and (min-width: 300px) {  /* 300--480时,会使用该设置 */  
+                    .columnshow{ display:none;}
+        }  
                 @media (max-width: 768px) {
                     .columnhide{ display:none;}
                 }
@@ -85,7 +88,7 @@ and open the template in the editor.
                             </div>
                     </div>
                     <div class="container" style="width:100%;" id="tablecontent">
-                        <div class="col-sm-12 col-md-4 column">
+                        <div class="col-md-4 column">
                             <div><img src="images/ca.jpg" style="width:100%;height:210px;"></div>
                             <table class="table"  style="border: 1px solid #ccc;">
                                 <tbody>
@@ -100,7 +103,7 @@ and open the template in the editor.
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-sm-12 col-md-4 column columnhide">
+                        <div class="col-md-4 column columnhide">
                             <div><img src="images/yq.jpg" style="width:100%;height:210px;"></div>
                             <table class="table"  style="border: 1px solid #ccc;">
                                 <tbody>
@@ -115,7 +118,7 @@ and open the template in the editor.
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-sm-12 col-md-4 column columnhide">
+                        <div class="col-md-4 column columnhide">
                             <div><img src="images/nocp.jpg" style="width:100%;height:210px;"></div>
                             <table class="table"  style="border: 1px solid #ccc;">
                                 <tbody>
