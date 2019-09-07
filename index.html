@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>轻小说征文</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?v=1"/>
+        <link rel="stylesheet" type="text/css" href="css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script type="text/javascript" src="//static.jjwxc.net/scripts/jquery-1.8.0.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />ss
+            <style >
+                .Ballot a {color: #000000;text-decoration: none;}
+                .Ballot a:hover {text-decoration: underline;}
+                .table>tbody>tr>td{
+                    overflow: hidden;
+                    padding: 0 10px;
+                    font-size: 12px;
+                    line-height: 30px;
+                    height: 30px;
+                    border-top: 1px dashed #eee;
+                }
+                .table>tbody>tr>td:nth-child(2){
+                    text-align: right;
+                }
+                @media (max-width: 768px) {
+                    .columnhide{ display:none;}
+                }
+                @media (min-width: 768px) {
+                    .columnshow{ display:none;}
+                }
+            </style>
+            <script>
+                $(function(){
+                    $(".nav li").click(function(){
+                        var index =$(this).index();
+                        $(this).addClass("active");
+                        $(this).removeClass("disabled");
+                        $(this).siblings().addClass("disabled").removeClass("active");
+                        $("#tablecontent>div").hide();
+                        $("#tablecontent>div:eq("+index+")").show();
+                    });
+                })
+            </script>
+    </head>
+    <body>
+        <div class="sitetop">
+            <div class="tlink">
+                <div class="logo">
+                    <a href="http://www.jjwxc.net/" target="_blank">
+                        <img src="http://static.jjwxc.net/sp/public/images/logo2.gif"/>
+                    </a>
+                </div>
+                <a target="_blank" href="http://www.jjwxc.com/">文学城&nbsp;</a><a target="_blank" href="http://bbs.jjwxc.net/">论坛&nbsp;</a><a target="_blank" href="http://www.jjwxc.cn/">书店&nbsp;</a>
+            </div>
+        </div>
+
+        <div class="banner web_bg"><div class="banner_li"></div></div>
+        <div class="concent concentbg web_bg" >
+            <ul id="menu">
+                <li class='hov'>本期参赛</li>
+                <li>参赛说明</li>
+            </ul>
+            <!--�峰�浣���-->
+            <div class="concent_li">
+                <div class="con_nr_sy"  style="width:100%;">
+                    <div class="container columnshow" style="padding-bottom:5px;width:100%;">
+                            <div class="col-md-12 column">
+                                <ul class="nav nav-tabs">
+                                    <li class="active">
+                                        <a href="javascript:void(0);">纯爱</a>
+                                    </li>
+                                    <li class="disabled">
+                                        <a href="javascript:void(0);">言情</a>
+                                    </li>
+                                    <li class="disabled">
+                                        <a href="javascript:void(0);">无CP</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="container" style="width:100%;" id="tablecontent">
+                        <div class="col-sm-12 col-md-4 column">
+                            <div><img src="images/ca.jpg" style="width:100%;height:210px;"></div>
+                            <table class="table"  style="border: 1px solid #ccc;">
+                                <tbody>
+                                    <tr>
+                                        <td><a href="http://www.jjwxc.net/onebook.php?novelid=3634307" target="_blank" title="" class="ArticleName">三个三个珍瑜全</a></td>
+                                        <td><a href="javascript:void();" class="AuthorName">33982票</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://www.jjwxc.net/onebook.php?novelid=3634307" target="_blank" title="" class="ArticleName">三个三个珍瑜全</a></td>
+                                        <td><a href="javascript:void();" class="AuthorName">33982票</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-12 col-md-4 column columnhide">
+                            <div><img src="images/yq.jpg" style="width:100%;height:210px;"></div>
+                            <table class="table"  style="border: 1px solid #ccc;">
+                                <tbody>
+                                    <tr>
+                                        <td><a href="http://www.jjwxc.net/onebook.php?novelid=3634307" target="_blank" title="" class="ArticleName">三个三个珍瑜全</a></td>
+                                        <td><a href="javascript:void();" class="AuthorName">33982票</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://www.jjwxc.net/onebook.php?novelid=3634307" target="_blank" title="" class="ArticleName">三个三个珍瑜全</a></td>
+                                        <td><a href="javascript:void();" class="AuthorName">33982票</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-12 col-md-4 column columnhide">
+                            <div><img src="images/nocp.jpg" style="width:100%;height:210px;"></div>
+                            <table class="table"  style="border: 1px solid #ccc;">
+                                <tbody>
+                                    <tr>
+                                        <td><a href="http://www.jjwxc.net/onebook.php?novelid=3634307" target="_blank" title="" class="ArticleName">三个三个珍瑜全</a></td>
+                                        <td><a href="javascript:void();" class="AuthorName">33982票</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://www.jjwxc.net/onebook.php?novelid=3634307" target="_blank" title="" class="ArticleName">三个三个珍瑜全</a></td>
+                                        <td><a href="javascript:void();" class="AuthorName">33982票</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
